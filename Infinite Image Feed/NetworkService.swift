@@ -11,7 +11,7 @@ class NetworkService {
     
     static let shared = NetworkService()
     
-    private let accessKey = "lAWlnYJon3OGj5jo1RXYyGCq7cHRBGnQ1cljLrvStT0"
+    private let accessKey = ""
     private let baseURL = "https://api.unsplash.com/photos"
     
     func fetchImages(page: Int) async throws -> [ImageModel] {
